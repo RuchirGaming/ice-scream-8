@@ -1,0 +1,787 @@
+Android
+r25b
+8937393
+__cxa_finalize
+__cxa_atexit
+__android_log_print
+getpid
+JNI_OnLoad
+JNI_Init
+external_api_initialize
+external_api_dispose
+external_api_set
+external_api_log
+external_api_set_user_id
+__system_property_get
+atoi
+memcpy
+strlen
+dladdr
+dlopen
+dlsym
+CrashpadHandlerMain
+abort
+malloc
+free
+posix_memalign
+__stack_chk_fail
+memmove
+memchr
+memset
+__strlen_chk
+pthread_mutex_lock
+syscall
+pthread_cond_wait
+pthread_mutex_unlock
+pthread_cond_broadcast
+__sF
+vfprintf
+fputc
+vasprintf
+android_set_abort_message
+openlog
+syslog
+closelog
+realloc
+__memmove_chk
+__vsnprintf_chk
+strcmp
+fprintf
+fflush
+pthread_rwlock_wrlock
+pthread_rwlock_unlock
+dl_iterate_phdr
+pthread_rwlock_rdlock
+fwrite
+strncmp
+pthread_getspecific
+getauxval
+pthread_key_delete
+pthread_setspecific
+pthread_once
+pthread_key_create
+libc.so
+LIBC
+libdl.so
+liblog.so
+libm.so
+libcrashlytics.so
+__cxa_guard_release
+covariant return thunk to 
+operator^=
+operator<=
+unknown pointer encoding
+unsupported restore location for float register
+decltype(
+typeid (
+operator>>=
+operator<=>
+long
+char32_t
+libunwind: malformed DW_CFA_register DWARF unwind, reg2 too big
+libunwind: malformed DW_CFA_val_offset_sf DWARF unwind, reg too big
+throw
+wchar_t
+operator~
+operator"" 
+std::basic_string
+decltype(auto)
+terminating with %s exception of type %s
+const_cast
+unsigned __int128
+operator delete
+operator>=
+unwind_phase2
+unsupported arm64 register
+libunwind: malformed DW_CFA_def_cfa DWARF unwind, reg too big
+getSLEB128
+getSavedRegister
+Failed to get the JVM environment; EDETACHED
+(Ljava/lang/String;)V
+typeinfo name for 
+operator new
+ [enable_if:
+std::nullptr_t
+objc_object
+std::bad_alloc
+getEncodedP
+CrashpadHandlerMain
+typeinfo for 
+reference temporary for 
+unsigned char
+operator&=
+operator*=
+std::basic_string<char, std::char_traits<char>, std::allocator<char> >
+getSavedFloatRegister
+()Lcom/google/firebase/crashlytics/FirebaseCrashlytics;
+3.2.0
+operator delete[]
+std::string
+auto
+unsigned short
+false
+%LaL
+operator/
+operator|
+libunwind: malformed DW_CFA_val_offset DWARF unwind, reg (%lu) out of range
+FDE has zero length
+FDE is really a CIE
+exynos9810
+Initializing libcrashlytics version %s
+operator&
+operator%
+operator>>
+libunwind: malformed DW_CFA_same_value DWARF unwind, reg too big
+DW_EH_PE_aligned pointer encoding not supported
+truncated sleb128 expression
+terminate_handler unexpectedly returned
+signed char
+sizeof...(
+basic_ostream
+std::ostream
+std::iostream
+long long
+noexcept(
+unsupported restore location for register
+__cxa_guard_acquire detected recursive initialization
+operator new[]
+operator!
+std::basic_ostream<char, std::char_traits<char> >
+__float128
+char16_t
+during phase1 personality function said it would stop here, but now in phase2 it did not stop here
+libunwind: malformed DW_CFA_GNU_negative_offset_extended DWARF unwind, reg too big
+typename 
+operator()
+operator>
+operator[]
+operator->
+unsigned long
+setRegister
+libunwind: malformed DW_CFA_offset_extended DWARF unwind, reg too big
+Failed to get the JVM environment; EVERSION
+> typename 
+(anonymous namespace)
+operator==
+ complex
+CIE start does not match
+CIE version is not 1 or 3
+install_signal_handler_linker
+%s failed to broadcast
+vtable for 
+VTT for 
+alignof (
+noexcept (
+char
+operator<
+operator->*
+unsigned int
+DW_EH_PE_funcrel pointer encoding not supported
+libunwind: Unsupported .eh_frame_hdr version
+setCustomKey
+ANDROID_DATA=/data
+ro.build.version.sdk
+__cxa_guard_acquire
+libc++abi
+dynamic_cast
+short
+string
+ostream
+long double
+install_signal_handler_java
+unexpected
+guard variable for 
+true
+operator?
+libunwind: %s - %s
+!/lib
+virtual thunk to 
+operator*
+operator||
+istream
+char8_t
+DW_OP_deref_size with bad size
+Unknown DWARF encoding for search table.
+LD_LIBRARY_PATH=
+unexpected_handler unexpectedly returned
+construction vtable for 
+__int128
+template<
+operator<<
+operator+
+operator+=
+operator++
+string literal
+unsigned long long
+ imaginary
+libunwind: malformed DW_CFA_expression DWARF unwind, reg too big
+Could not find %s in libcrashlytics-common.so
+operator=
+operator/=
+bool
+evaluateExpression
+!/lib/
+operator^
+ restrict
+decimal64
+libunwind: malformed DW_CFA_undefined DWARF unwind, reg too big
+libcrashlytics
+Could not find self when loading libcrashlytics-common.so
+terminating with %s exception of type %s: %s
+non-virtual thunk to 
+std::basic_istream<char, std::char_traits<char> >
+iostream
+pixel vector[
+union
+_Unwind_Resume() can't return
+libunwind: malformed DW_CFA_register DWARF unwind, reg too big
+yptn
+operator%=
+DW_OP_fbreg not implemented
+terminating with %s foreign exception
+uncaught
+operator--
+operator|=
+std::basic_iostream<char, std::char_traits<char> >
+_Unwind_Resume
+libunwind: malformed DW_CFA_def_cfa_sf DWARF unwind, reg too big
+Initializing native crash handling %s.
+([Ljava/lang/String;Ljava/lang/Object;)Z
+getInstance
+Could not load libcrashlytics-common.so
+'block-literal'
+operator-
+basic_istream
+std::istream
+double
+nativeInit
+setUserId
+libcrashlytics-trampoline.so
+%s failed to acquire mutex
+invocation function for block in 
+static_cast
+sizeof... (
+operator-=
+libunwind: malformed DW_CFA_offset_extended_sf DWARF unwind, reg too big
+getULEB128
+malformed uleb128 expression
+DWARF opcode not implemented
+%s failed to release mutex
+nullptr
+operator<<=
+::operator 
+enum
+libunwind: malformed DW_CFA_val_expression DWARF unwind, reg too big
+successful
+vector
+terminating
+reinterpret_cast
+DW_EH_PE_textrel pointer encoding not supported
+truncated uleb128 expression
+basic_string
+operator 
+void
+float
+decimal128
+libunwind: malformed DW_CFA_restore_extended DWARF unwind, reg too big
+getTableEntrySize
+ro.arch
+arm64-v8a
+/libcrashlytics.so
+operator&&
+decimal32
+CIE ID is not zero
+failed
+libcrashlytics-common.so
+thread-local wrapper routine for 
+thread-local initialization routine for 
+sizeof (
+operator!=
+__uuidof(
+std::allocator
+allocator
+struct
+libunwind: malformed DW_CFA_def_cfa_register DWARF unwind, reg too big
+Can't binary search on variable length encoded data.
+com/google/firebase/crashlytics/ndk/JniNativeApi
+com/google/firebase/crashlytics/FirebaseCrashlytics
+terminate_handler unexpectedly threw an exception
+operator,
+decimal16
+noexcept
+getRegister
+DW_EH_PE_datarel is invalid with a datarelBase of 0
+unknown register
+(Ljava/lang/String;Ljava/lang/String;)V
+CLASSPATH=
+basic_iostream
+ volatile
+std::bad_exception
+DW_OP_piece not implemented
+<Pcjv
+""i""""""""""""""""""""""""""""{""m
+66666666666666666
+6666666666666tx
+rrrr
+rrrrrrrrrrrrr
+rrrrrrrrrrrr
+	6												
+ (N12_GLOBAL__N_116itanium_demangle11SpecialNameE
+N12_GLOBAL__N_116itanium_demangle4NodeE
+N12_GLOBAL__N_116itanium_demangle21CtorVtableSpecialNameE
+N12_GLOBAL__N_116itanium_demangle8NameTypeE
+N12_GLOBAL__N_116itanium_demangle10NestedNameE
+N12_GLOBAL__N_116itanium_demangle24ForwardTemplateReferenceE
+N12_GLOBAL__N_116itanium_demangle14IntegerLiteralE
+N12_GLOBAL__N_116itanium_demangle8BoolExprE
+N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIfEE
+N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIdEE
+N12_GLOBAL__N_116itanium_demangle16FloatLiteralImplIeEE
+N12_GLOBAL__N_116itanium_demangle13StringLiteralE
+N12_GLOBAL__N_116itanium_demangle15UnnamedTypeNameE
+N12_GLOBAL__N_116itanium_demangle26SyntheticTemplateParamNameE
+N12_GLOBAL__N_116itanium_demangle21TypeTemplateParamDeclE
+N12_GLOBAL__N_116itanium_demangle24NonTypeTemplateParamDeclE
+N12_GLOBAL__N_116itanium_demangle25TemplateTemplateParamDeclE
+N12_GLOBAL__N_116itanium_demangle21TemplateParamPackDeclE
+N12_GLOBAL__N_116itanium_demangle15ClosureTypeNameE
+N12_GLOBAL__N_116itanium_demangle10LambdaExprE
+N12_GLOBAL__N_116itanium_demangle15IntegerCastExprE
+N12_GLOBAL__N_116itanium_demangle13FunctionParamE
+N12_GLOBAL__N_116itanium_demangle8FoldExprE
+N12_GLOBAL__N_116itanium_demangle22ParameterPackExpansionE
+N12_GLOBAL__N_116itanium_demangle10BinaryExprE
+N12_GLOBAL__N_116itanium_demangle10PrefixExprE
+N12_GLOBAL__N_116itanium_demangle8CastExprE
+N12_GLOBAL__N_116itanium_demangle8CallExprE
+N12_GLOBAL__N_116itanium_demangle14ConversionExprE
+N12_GLOBAL__N_116itanium_demangle10DeleteExprE
+N12_GLOBAL__N_116itanium_demangle13QualifiedNameE
+N12_GLOBAL__N_116itanium_demangle8DtorNameE
+N12_GLOBAL__N_116itanium_demangle22ConversionOperatorTypeE
+N12_GLOBAL__N_116itanium_demangle15LiteralOperatorE
+N12_GLOBAL__N_116itanium_demangle19GlobalQualifiedNameE
+N12_GLOBAL__N_116itanium_demangle10MemberExprE
+N12_GLOBAL__N_116itanium_demangle18ArraySubscriptExprE
+N12_GLOBAL__N_116itanium_demangle10BracedExprE
+N12_GLOBAL__N_116itanium_demangle15BracedRangeExprE
+N12_GLOBAL__N_116itanium_demangle12InitListExprE
+N12_GLOBAL__N_116itanium_demangle11PostfixExprE
+N12_GLOBAL__N_116itanium_demangle7NewExprE
+N12_GLOBAL__N_116itanium_demangle13EnclosingExprE
+N12_GLOBAL__N_116itanium_demangle15ConditionalExprE
+N12_GLOBAL__N_116itanium_demangle19SizeofParamPackExprE
+N12_GLOBAL__N_116itanium_demangle13NodeArrayNodeE
+N12_GLOBAL__N_116itanium_demangle9ThrowExprE
+N12_GLOBAL__N_116itanium_demangle10UUIDOfExprE
+N12_GLOBAL__N_116itanium_demangle27ExpandedSpecialSubstitutionE
+N12_GLOBAL__N_116itanium_demangle12CtorDtorNameE
+N12_GLOBAL__N_116itanium_demangle10AbiTagAttrE
+N12_GLOBAL__N_116itanium_demangle21StructuredBindingNameE
+N12_GLOBAL__N_116itanium_demangle9LocalNameE
+N12_GLOBAL__N_116itanium_demangle19SpecialSubstitutionE
+N12_GLOBAL__N_116itanium_demangle13ParameterPackE
+N12_GLOBAL__N_116itanium_demangle12TemplateArgsE
+N12_GLOBAL__N_116itanium_demangle20NameWithTemplateArgsE
+N12_GLOBAL__N_116itanium_demangle16StdQualifiedNameE
+N12_GLOBAL__N_116itanium_demangle20TemplateArgumentPackE
+N12_GLOBAL__N_116itanium_demangle12EnableIfAttrE
+N12_GLOBAL__N_116itanium_demangle16FunctionEncodingE
+N12_GLOBAL__N_116itanium_demangle9DotSuffixE
+N12_GLOBAL__N_116itanium_demangle12NoexceptSpecE
+N12_GLOBAL__N_116itanium_demangle20DynamicExceptionSpecE
+N12_GLOBAL__N_116itanium_demangle12FunctionTypeE
+N12_GLOBAL__N_116itanium_demangle13ObjCProtoNameE
+N12_GLOBAL__N_116itanium_demangle17VendorExtQualTypeE
+N12_GLOBAL__N_116itanium_demangle8QualTypeE
+N12_GLOBAL__N_116itanium_demangle15PixelVectorTypeE
+N12_GLOBAL__N_116itanium_demangle10VectorTypeE
+N12_GLOBAL__N_116itanium_demangle9ArrayTypeE
+N12_GLOBAL__N_116itanium_demangle19PointerToMemberTypeE
+N12_GLOBAL__N_116itanium_demangle22ElaboratedTypeSpefTypeE
+N12_GLOBAL__N_116itanium_demangle11PointerTypeE
+N12_GLOBAL__N_116itanium_demangle13ReferenceTypeE
+N12_GLOBAL__N_116itanium_demangle20PostfixQualifiedTypeE
+KKKK6
+N10__cxxabiv116__shim_type_infoE
+N10__cxxabiv117__class_type_infoE
+N10__cxxabiv120__si_class_type_infoE
+St9exception
+St13bad_exception
+St9bad_alloc
+St11logic_error
+St12length_error
+St12out_of_range
+St9type_info
+zPLR
+,ik8j
+pin8
+j48)
+#@9h
+#@9j
+#@9h
+c@9*
+c@9h
+c@9h
+c@9h
+c@9h
+#A9h
+Tk"@
+Tk"@
+	i`8
+Th:@
+@9?i
+@9?}
+@9?i
+@9?}
+TI	@9?
+@9?}
+TI!@9?
+TI%@9?
+TI)@9?
+TI-@9?
+TI1@9?
+h(8t
+@9_Q
+myjx
+Th&@
+@9?}
+TkNA
+T*	@9_
+T*!@9_
+T*%@9_}
+T*)@9_
+T*-@9_
+T*1@9_%
+@9?I
+h"L9
+4h&@
+Lyixk	
+@9?}
+@9?}
+h"L9
+4h&@
+@9?1
+TH	@9
+@9_I
+kh8)	
+@98 
+@9?}
+@9?i
+r	h(
+@9?M
+,ih8k	
+@9?%
+6hNA
+6hNA
+TiRA
+J%@9_
+@9?Q
+@9?1
+j&L9h
+9hnA
+TwjA
+TJyi
+TTyu
+k.@9I
+@9_	
+@9_U
+	h(xh
+$@9i
+(@9i
+,@9i
+Lyixk	
+Lyixk	
+Lyixk	
+Lyixk	
+@9?=
+Lyixk	
+Lyixk	
+Lyixk	
+myjx
+myjx
+myjx
+Lyixk	
+T		@9?}
+@9?}
+T	!@9?
+T	%@9?
+T	)@9?
+@9?}
+@9?}
+@9?}
+T	!@9?
+T	%@9?
+T	)@9?
+@9_1
+T		@9?
+T		@9?i
+T		@9?
+	@9K
+!@9K
+%@9K
+	@9l
+!@9K
+%@9K
+)@9K
+-@9K
+1@9K
+5@9K
+9@9K
+=@9K
+A@9K
+E@9K
+jj8l
+@9?Y
+@9?-
+@9_1
+@9?Y
+@9?-
+Lii8k	
+Lii8k	
+@9?Y
+@9?=
+Lii8k	
+Lii8k	
+@9?I
+@9?1
+Lii8k	
+@9_}
+@9,'
+	@9_9
+q$	A
+@9?a
+Tk*A
+@9?U
+@9?}
+R	h(8h
+R	h(8h
+R	h(8
+0@9i
+o 	@
+#@9@
+i+8k
+fne4
+!NaT
+9hi)8
+	h(xh
+R	h(xh
+@9?Q
+Lii8k	
+	h(8h
+R	h(8h
+	h(8
+	h(8
+R	h(8h
+	h(8
+R	h(8h
+R	h(x
+	 @9
+	h(8h
+R	h(8h
+R	h(xh
+h(8h
+r	h(
+r	h(
+7`C)
+R	h(8h
+	h(8h
+R	h(xh
+	h(xh
+R	h(8
+R	h(8h
+	h(8h
+	h(8h
+	h(8h
+	h(xh
+	h(8h
+	h(8
+	h(8h
+	h(8h
+	h(x
+	h(8h
+	`@9(
+R	h(xh
+f@9(
+@9_}
+K	@9
+@9_1
+@9_	
+@9_1
+K!@9
+TJ%@9_}
+	h(xh
+myjx
+Lyixk	
+Lyixk	
+Lyixk	
+Lyixk	
+Lii8k	
+@9?=
+Lyixk	
+Lyixk	
+@9?I
+Lii8k	
+v&L9
+w"L9
+	*i&
+	h(8h
+R)=,
+	h(xh
+	h(8h
+	h(xh
+	h(8h
+	h(8h
+R	h(8h
+R	h(xh
+	h(8
+R	h(8h
+	h(8
+R	h(8h
+	h(8h
+	h(8h
+R	h(8h
+R	h(8h
++ih8J	
+R+a@
+R	h(8h
+	h(8h
+	h(xh
++ih8J	
+R+a@
+R+Q@
+	h(8
+R	h(8h
+R	h(8h
+R)=2
+R	h(8h
+	h(8
+R	h(8h
+R	h(xh
+	h(8h
+@9_Y
+@9_-
+@9_=
+@9?e
+@9?=
+@9?Y
+.@9l
+"@9_
+@9?}
+@9_}
+@9?Q
+,%@9
+9*%@9
+R	h(8h
+R	h(8h
+	h(8
+	h(8h
+R	h(8h
+	h(8h
+R	h(8h
+RJA$
+R	h(8h
+	h(8h
+_8?u
+R	h(8h
+R	h(8h
+	h(8h
+*%@9
+(@9H
+R	h(8
+(@9H
+R	h(8h
+(!@9
+T(%A
+R	h(8h
+(@9H
+R	h(8h
+R	h(8
+(!@9
+T(%A
+(@9H
+R	h(8h
+*@9(
+*@9h
+.@9(
+p@9h	
+*@9h
+.@9(
+Th&~
+Mih8
+H%@x,
+Ki*(
+@yN	
+T(<@
+T(<@
+ 	Az
+ThF@
+h6A9
+4h2A9i
+Th6@
+Th2@
+G)t:
+Th2@
+Th6@
+Th>@
+ThJ@
+Th>@
+ThJ@
+f@9z
+@9	{
+@9		
+*ki8
++ih8J	
++ih8J	
+Q(O(
+#\8_
+#\8_
+zjxk	
+@9)	
+9	|	
+	*H}
+*i}	
+9	|	
+5i"A
+Lii8k	
+Lii8k	
+Lii8k	
++ih8J	
+%@x(
+Lii8k	
+@9)	
+M{kx
+QhN(
+ThN+
+Lyixk	
+Lyixk	
+ThN 
+TiN 
+@9Y@#
++ih8J	
+Android (8490178, based on r450784d) clang version 14.0.6 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6)
+Linker: LLD 14.0.6
+.init_array
+.fini_array
+.text
+.got
+.comment
+.note.android.ident
+.got.plt
+.rela.plt
+.bss
+.dynstr
+.eh_frame_hdr
+.gnu.version_r
+.data.rel.ro
+.rela.dyn
+.gnu.version
+.dynsym
+.gnu.hash
+.eh_frame
+.gcc_except_table
+.note.gnu.build-id
+.dynamic
+.shstrtab
+.rodata
+.data

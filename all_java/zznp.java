@@ -1,0 +1,41 @@
+package com.google.android.recaptcha.internal;
+
+/* JADX INFO: compiled from: com.google.android.recaptcha:recaptcha@@18.4.0 */
+/* JADX INFO: loaded from: /workspaces/ice-scream-8/./apk_dex_files/classes4.dex */
+final /* synthetic */ class zznp {
+    static final /* synthetic */ int[] zza;
+
+    static {
+        zzis.zza();
+        int[] iArr = new int[7];
+        zza = iArr;
+        try {
+            iArr[3] = 1;
+        } catch (NoSuchFieldError unused) {
+        }
+        try {
+            zza[4] = 2;
+        } catch (NoSuchFieldError unused2) {
+        }
+        try {
+            zza[2] = 3;
+        } catch (NoSuchFieldError unused3) {
+        }
+        try {
+            zza[5] = 4;
+        } catch (NoSuchFieldError unused4) {
+        }
+        try {
+            zza[6] = 5;
+        } catch (NoSuchFieldError unused5) {
+        }
+        try {
+            zza[0] = 6;
+        } catch (NoSuchFieldError unused6) {
+        }
+        try {
+            zza[1] = 7;
+        } catch (NoSuchFieldError unused7) {
+        }
+    }
+}

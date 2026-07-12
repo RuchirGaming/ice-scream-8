@@ -1,0 +1,114 @@
+package io.grpc.internal;
+
+import java.lang.reflect.Constructor;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+/* JADX INFO: loaded from: /workspaces/ice-scream-8/./apk_dex_files/classes8.dex */
+public final class ReflectionLongAdderCounter implements LongCounter {
+    private static final Method addMethod;
+    private static final Constructor<?> defaultConstructor;
+    private static final RuntimeException initializationException;
+    private static final Logger logger = Logger.getLogger(ReflectionLongAdderCounter.class.getName());
+    private static final Object[] one;
+    private static final Method sumMethod;
+    private final Object instance;
+
+    static {
+        Method method;
+        Method method2;
+        Constructor<?> constructor;
+        try {
+            Class<?> cls = Class.forName("java.util.concurrent.atomic.LongAdder");
+            method = cls.getMethod("add", Long.TYPE);
+            try {
+                method2 = cls.getMethod("sum", new Class[0]);
+                try {
+                    Constructor<?>[] constructors = cls.getConstructors();
+                    int length = constructors.length;
+                    int i2 = 0;
+                    while (true) {
+                        if (i2 >= length) {
+                            constructor = null;
+                            break;
+                        }
+                        constructor = constructors[i2];
+                        if (constructor.getParameterTypes().length == 0) {
+                            break;
+                        } else {
+                            i2++;
+                        }
+                    }
+                    th = null;
+                } catch (Throwable th) {
+                    th = th;
+                    logger.log(Level.FINE, "LongAdder can not be found via reflection, this is normal for JDK7 and below", th);
+                    constructor = null;
+                }
+            } catch (Throwable th2) {
+                th = th2;
+                method2 = null;
+            }
+        } catch (Throwable th3) {
+            th = th3;
+            method = null;
+            method2 = null;
+        }
+        if (th == null && constructor != null) {
+            defaultConstructor = constructor;
+            addMethod = method;
+            sumMethod = method2;
+            initializationException = null;
+        } else {
+            defaultConstructor = null;
+            addMethod = null;
+            sumMethod = null;
+            initializationException = new RuntimeException(th);
+        }
+        one = new Object[]{1L};
+    }
+
+    ReflectionLongAdderCounter() {
+        RuntimeException runtimeException = initializationException;
+        if (runtimeException != null) {
+            throw runtimeException;
+        }
+        try {
+            this.instance = defaultConstructor.newInstance(new Object[0]);
+        } catch (IllegalAccessException e2) {
+            throw new RuntimeException(e2);
+        } catch (InstantiationException e3) {
+            throw new RuntimeException(e3);
+        } catch (InvocationTargetException e4) {
+            throw new RuntimeException(e4);
+        }
+    }
+
+    static boolean isAvailable() {
+        return initializationException == null;
+    }
+
+    @Override // io.grpc.internal.LongCounter
+    public void add(long j2) {
+        try {
+            addMethod.invoke(this.instance, j2 == 1 ? one : new Object[]{Long.valueOf(j2)});
+        } catch (IllegalAccessException e2) {
+            throw new RuntimeException(e2);
+        } catch (InvocationTargetException e3) {
+            throw new RuntimeException(e3);
+        }
+    }
+
+    @Override // io.grpc.internal.LongCounter
+    public long value() {
+        try {
+            return ((Long) sumMethod.invoke(this.instance, new Object[0])).longValue();
+        } catch (IllegalAccessException unused) {
+            throw new RuntimeException();
+        } catch (InvocationTargetException unused2) {
+            throw new RuntimeException();
+        }
+    }
+}

@@ -1,0 +1,23 @@
+package com.google.android.gms.internal.ads;
+
+import com.amazon.device.ads.DTBMetricsConfiguration;
+import com.fyber.inneractive.sdk.external.InneractiveMediationNameConsts;
+
+/* JADX INFO: compiled from: com.google.android.gms:play-services-ads@@22.6.0 */
+/* JADX INFO: loaded from: /workspaces/ice-scream-8/./apk_dex_files/classes3.dex */
+public enum zzfll {
+    CTV("ctv"),
+    MOBILE(DTBMetricsConfiguration.APSMETRICS_LEVEL2_KEY),
+    OTHER(InneractiveMediationNameConsts.OTHER);
+
+    private final String zze;
+
+    zzfll(String str) {
+        this.zze = str;
+    }
+
+    @Override // java.lang.Enum
+    public final String toString() {
+        return this.zze;
+    }
+}

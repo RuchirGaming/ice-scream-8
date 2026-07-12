@@ -1,0 +1,397 @@
+__cxa_finalize
+__cxa_atexit
+liblog.so
+libdl.so
+libm.so
+abort
+memcpy
+memset
+strlen
+pthread_create
+pthread_once
+malloc
+free
+dl_iterate_phdr
+pthread_mutex_unlock
+pthread_mutex_lock
+libc.so
+JNI_OnLoad
+__android_log_print
+__errno
+__memcpy_chk
+__open_2
+__stack_chk_fail
+__strlen_chk
+__strncpy_chk2
+__vsnprintf_chk
+_exit
+access
+alphasort
+calloc
+clock_gettime
+clone
+closedir
+dladdr
+dlclose
+dlopen
+dlsym
+dup2
+eventfd
+execl
+fclose
+fcntl
+fflush
+fgets
+fopen
+fstat
+getpid
+gettid
+gettimeofday
+isspace
+localtime_r
+lseek
+memcmp
+mkdir
+mmap
+munmap
+opendir
+pipe2
+prctl
+pthread_detach
+pthread_join
+pthread_self
+pthread_setname_np
+pthread_sigmask
+read
+readdir
+rename
+rewind
+scandir
+sigaction
+sigaddset
+sigaltstack
+sigemptyset
+sigfillset
+siglongjmp
+sigsetjmp
+sscanf
+strcmp
+strdup
+strtol
+syscall
+tac_test_call_1
+tac_test_call_2
+tac_test_call_3
+tac_test_call_4
+tac_test_crash
+uname
+unlink
+usleep
+vsnprintf
+waitpid
+write
+writev
+libtacrashclone.so
+LIBC
+RBp4
+4(#@ys
+7h"@
+T?i(8
+T@kv
++ih8J	
++ih8J	
++ih8J	
+RhBM
+ik(8
+48o@
+TJkh8
++yhxJ	
+4 o@
+Ttj@
+	qR9i
+b	q`
+q(AA
+R{s4
+@9HO
+4(#@y
+*!8;
+>A8	
+q"	B
+Rc >
+jh8?
+9|$@
+hib8
+*cjj8I
+ij8k	
+TI|@
+T!i(8
+RKyix)
+Th"@
+8h&A
+T?i(8
+;h)\
+kf)t
+z@y	=@
+T-+@
+cji8
+cjh8
+Ha8a
+c|m9
+chb8
+@`M9`
+5`~@
+B`M9B
+c`M9
+jb8_ 
+Bht8>
+c`M9c
+T`2C
+Ta[axc
+*@9?
+"@9?
+@9? 
+"@9_
+ H`8a
+Y9Bx
+J`8a
+Jz8d
+ H`8a
+ja8? 
+9`z4
+Ta~}
+ H`8a
+Ha8a
+b"@9
+`&@9
+b"@9_
+@9?H
+4C(@
+0@y	
+B@y 
+`B@y
+7`B@y
+ @@y
+`B@y
+UC7_33i3333A
+bY\_hkep
+bY\_hke
+.native.tacrash
+%s/tombstone_%lu_%s_%s_%s
+placeholder_
+.clean.tacrash
+/dev/null
+/libtacrash_dumper.so
+crashCallback
+(Ljava/lang/String;Ljava/lang/String;ZZLjava/lang/String;)V
+meet error sig(%d) while calling ART dump trace
+tacrash error:
+set dumpable failed, errno=%d
+tacrash error:
+set traceable failed, errno=%d
+tacrash error:
+fork failed, errno=%d
+tacrash error:
+waitpid failed, errno=%d
+tacrash error:
+child terminated normally with non-zero exit status(%d), dumper=%s
+tacrash error:
+child terminated by a signal(%d)
+tacrash error:
+child terminated with other error status(%d), dumper=%s
+    #00 pc 
+_ZN3art6Thread14CurrentFromGdbEv
+_ZNK3art6Thread13DumpJavaStackERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEE
+_ZNK3art6Thread13DumpJavaStackERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEbb
+java stacktrace:
+tacrash error:
+open /dev/null failed, errno=%d
+tacrash error:
+/dev/null fd NOT 0, errno=%d
+tacrash error:
+create args pipe failed, errno=%d
+tacrash error:
+set args pipe size failed, errno=%d
+tacrash error:
+write args to pipe failed, return=%d, errno=%d
+tacrash_crash_cb
+native
+pid: %d, tid: %d, name: %s  >>> %s <<<
+--------
+ from pid %d, uid %d
+signal %d (%s), code %d (%s%s), fault addr %s
+    x0  %016lx  x1  %016lx  x2  %016lx  x3  %016lx
+    x4  %016lx  x5  %016lx  x6  %016lx  x7  %016lx
+    x8  %016lx  x9  %016lx  x10 %016lx  x11 %016lx
+    x12 %016lx  x13 %016lx  x14 %016lx  x15 %016lx
+    x16 %016lx  x17 %016lx  x18 %016lx  x19 %016lx
+    x20 %016lx  x21 %016lx  x22 %016lx  x23 %016lx
+    x24 %016lx  x25 %016lx  x26 %016lx  x27 %016lx
+    x28 %016lx  x29 %016lx
+    sp  %016lx  lr  %016lx  pc  %016lx
+backtrace:
+cn/thinkinganalyticsclone/android/crash/NativeHandler
+nativeInit
+(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZZZZ)I
+nativeNotifyJavaCrashed
+testNativeCrash
+(I)V
+/apex/com.android.runtime/lib64/bionic/libc.so
+/system/lib64/libc.so
+android_set_abort_message
+abort message for tacrash internal testing
+tac_test_cal
+tac_test_log
+crashed APP's thread is running ...... %d
+traceCallback
+(Ljava/lang/String;Ljava/lang/String;)V
+%s/%s
+pid: %d  >>> %s <<<
+Mode: ART DumpForSigQuit
+/apex/com.android.runtime/lib64/libc++.so
+/system/lib64/libc++.so
+_ZNSt3__14cerrE
+/apex/com.android.art/lib64/libart.so
+/apex/com.android.runtime/lib64/libart.so
+/system/lib64/libart.so
+_ZN3art7Runtime9instance_E
+_ZN3art7Runtime14DumpForSigQuitERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEE
+_ZN3art3Dbg9SuspendVMEv
+_ZN3art3Dbg8ResumeVMEv
+Failed to load symbols.
+%lx-%lx r
+Failed to check runtime address.
+Failed to duplicate FD.
+longjmp to skip dumping trace
++++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++
+/proc/%d/task
+Signal Catcher
+/proc/%d/status
+SigBlk: %lx
+tombstone_
+.trace.tacrash
+tacrash_trace_dp
+%s version %s %s (%s)
+(null)
+libunwind.so
+_Uaarch64_init_local
+_Uaarch64_get_reg
+_Uaarch64_step
+    #%02zu pc %016lx  <unknown>
+    #%02zu pc %016lx  <anonymous:%16lx>
+    #%02zu pc %016lx  %s
+    #%02zu pc %016lx  %s (%s)
+    #%02zu pc %016lx  %s (%s+%lu)
+SIGSTKFLT
+SIGSYS
+SIGTRAP
+SIGSEGV
+SIGILL
+SIGFPE
+SIGBUS
+SIGABRT
+SI_DETHREAD
+SI_TKILL
+SI_SIGIO
+SI_ASYNCIO
+SI_MESGQ
+SI_TIMER
+SI_QUEUE
+SI_KERNEL
+PTRACE_EVENT_STOP
+PTRACE_EVENT_SECCOMP
+PTRACE_EVENT_EXIT
+PTRACE_EVENT_VFORK_DONE
+PTRACE_EVENT_EXEC
+PTRACE_EVENT_CLONE
+PTRACE_EVENT_VFORK
+PTRACE_EVENT_FORK
+SYS_SECCOMP
+SI_USER
+TRAP_BRKPT
+TRAP_TRACE
+TRAP_BRANCH
+TRAP_HWBKPT
+SEGV_MAPERR
+SEGV_ACCERR
+SEGV_BNDERR
+SEGV_PKUERR
+ILL_ILLOPC
+ILL_ILLOPN
+ILL_ILLADR
+ILL_ILLTRP
+ILL_PRVOPC
+ILL_PRVREG
+ILL_COPROC
+ILL_BADSTK
+FPE_INTDIV
+FPE_INTOVF
+FPE_FLTDIV
+FPE_FLTOVF
+FPE_FLTUND
+FPE_FLTRES
+FPE_FLTINV
+FPE_FLTSUB
+BUS_ADRALN
+BUS_ADRERR
+BUS_OBJERR
+BUS_MCEERR_AR
+BUS_MCEERR_AO
+/proc/%d/cmdline
+unknown
+/proc/%d/comm
+/data/local/su
+/data/local/bin/su
+/data/local/xbin/su
+/system/xbin/su
+/system/bin/su
+/system/bin/.ext/su
+/system/bin/failsafe/su
+/system/sd/xbin/su
+/system/usr/we-need-root/su
+/sbin/su
+/su/bin/su
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Tombstone maker: 'TACrash 1.0.0'
+Crash type: '%s'
+Start time: '%04d-%02d-%02dT%02d:%02d:%02d.%03ld%c%02ld%02ld'
+Crash time: '%04d-%02d-%02dT%02d:%02d:%02d.%03ld%c%02ld%02ld'
+App ID: '%s'
+App version: '%s'
+Rooted: '%s'
+API level: '%d'
+OS version: '%s'
+Kernel version: '%s'
+ABI list: '%s'
+Manufacturer: '%s'
+Brand: '%s'
+Model: '%s'
+Build fingerprint: '%s'
+ABI: 'arm64'
+/proc/self/maps
+%lx-%*lx %*4s %lx %*x:%*x %*d%n
+Android
+r21e
+7075529
+Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)
+GCC: (GNU) 4.9.x 20150123 (prerelease)
+.fini_array
+.text
+.got
+.comment
+.note.android.ident
+.rela.plt
+.bss
+.dynstr
+.eh_frame_hdr
+.gnu.version_r
+.data.rel.ro
+.rela.dyn
+.gnu.version
+.dynsym
+.gnu.hash
+.eh_frame
+.note.gnu.build-id
+.dynamic
+.shstrtab
+.rodata
+.data

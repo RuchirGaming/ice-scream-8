@@ -1,0 +1,27 @@
+package com.applovin.exoplayer2.common.a;
+
+import org.checkerframework.checker.nullness.compatqual.NullableDecl;
+
+/* JADX INFO: loaded from: /workspaces/ice-scream-8/./apk_dex_files/classes.dex */
+final class p {
+    static int bg(int i2) {
+        return (int) (((long) Integer.rotateLeft((int) (((long) i2) * (-862048943)), 15)) * 461845907);
+    }
+
+    static int s(@NullableDecl Object obj) {
+        return bg(obj == null ? 0 : obj.hashCode());
+    }
+
+    static int a(int i2, double d2) {
+        int iMax = Math.max(i2, 2);
+        int iHighestOneBit = Integer.highestOneBit(iMax);
+        if (iMax <= ((int) (d2 * ((double) iHighestOneBit)))) {
+            return iHighestOneBit;
+        }
+        int i3 = iHighestOneBit << 1;
+        if (i3 > 0) {
+            return i3;
+        }
+        return 1073741824;
+    }
+}

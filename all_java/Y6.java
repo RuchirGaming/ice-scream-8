@@ -1,0 +1,5 @@
+package com.facebook.ads.redexgen.X;
+
+/* JADX INFO: loaded from: /workspaces/ice-scream-8/./apk_dex_files/audience_network.dex */
+public abstract class Y6<T> extends C7e<T> {
+}

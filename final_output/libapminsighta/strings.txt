@@ -1,0 +1,532 @@
+5&A*#x
+__cxa_finalize
+__cxa_atexit
+JNI_OnLoad
+__errno
+__stack_chk_fail
+flock
+memcpy
+getpid
+gettid
+gettimeofday
+strlen
+strdup
+longjmp
+strtol
+__android_log_print
+getrlimit
+prctl
+pthread_exit
+pthread_mutex_lock
+pthread_mutex_unlock
+setrlimit
+sigaction
+sigemptyset
+syscall
+usleep
+alarm
+closedir
+execlp
+fork
+lseek
+mallinfo
+opendir
+read
+readdir
+readlink
+strcmp
+strncpy
+sysinfo
+write
+dup2
+pthread_cond_init
+pthread_cond_signal
+pthread_cond_timedwait
+pthread_cond_wait
+pthread_condattr_init
+pthread_create
+malloc
+mkdir
+strcpy
+dladdr
+pthread_attr_init
+pthread_attr_setdetachstate
+pthread_getattr_np
+pthread_self
+sigaltstack
+eventfd
+fclose
+fgets
+fopen
+free
+kill
+pthread_sigmask
+sigaddset
+sigdelset
+sigwait
+sscanf
+strtoul
+fstat
+memset
+calloc
+clone
+execl
+fcntl
+memcmp
+pipe2
+waitpid
+writev
+localtime_r
+rewind
+setjmp
+time
+mmap
+munmap
+uname
+dlclose
+dlopen
+dlsym
+isspace
+vsnprintf
+abort
+pthread_once
+dl_iterate_phdr
+liblog.so
+libc.so
+libm.so
+libdl.so
+_edata
+__bss_start
+__bss_start__
+__bss_end__
+__end__
+_end
+libnpth.so
+LIBC
+2	A	9
+	QI9
+2	Q	9e
+Vi`8
+Vi`8
+@8{+
+	Kj!
++ih8,ij8+i*8,i(8J
+jj8N
+j+8k
+5`R@
+5`z@
+5`BA
+"@yZ
+<A8h
+(#@y
+RLii8
+R,ih8
+Rnih8
+<A8h
+#@y{
+[B)u
+Tijh8?)
+THcA
+y oA
+T(oA
+y@cA
+T#kh
+T$kh
+T%kh
+T&kh
+T(kh
+T)ki
+*ih8_)
+T?i(8
+*!l*
+4@7B
+n@y	}	
+z@y	}
+T,+@
+z@y*=
+SM~M
+RKyix)
+jh8?
+Vi`8
+Vi`8
+@8{+
+	Kj!
++ih8,ij8+i*8,i(8J
+jj8N
+j+8k
+Th"@
+8h&A
+Ha8a
+RA@2
+@@29 
+chb8
+@`M9`
+5`~@
+B`M9B
+c`M9
+jb8_ 
+Bht8
+c`M9c
+T`2C
+Ta[axc
+*@9?
+"@9?
+@9? 
+"@9_
+ H`8a
+Y9Bx
+J`8a
+Jz8d
+ H`8a
+ja8? 
+9`z4
+Br9 
+Ta~}
+ H`8a
+Ha8a
+b"@9
+`&@9
+b"@9_
+@9?H
+4C(@
+Ti|F
+0@y	
+B@y 
+`B@y
+7`B@y
+ @@y
+`B@y
+com/apm/insight/nativecrash/NativeImpl
+doStart
+(ILjava/lang/String;Ljava/lang/String;Ljava/lang/String;I)I
+doSetResendSigQuit
+(I)V
+doSetAlogFlushAddr
+(J)V
+doSetAlogLogDirAddr
+doCheckNativeCrash
+doSetAlogConfigPath
+(Ljava/lang/String;)V
+doGetCrashHeader
+(Ljava/lang/String;)Ljava/lang/String;
+doRebuildTombstone
+(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+doCreateCallbackThread
+doStartAnrMonitor
+doSignalMainThread
+doGetFdDump
+(II[I[Ljava/lang/String;)[Ljava/lang/String;
+doLock
+(Ljava/lang/String;I)I
+doDumpLogcat
+doDumpMemInfo
+doGetVMSize
+doGetAppCpuTime
+doGetThreadCpuTime
+(I)J
+doGetChildCpuTime
+doGetDeviceCpuTime
+doGetTotalMemory
+doGetFreeMemory
+doGetThreadsCount
+doGetFDCount
+doDumpMaps
+doDumpFds
+doDumpThreads
+doDump
+doDumpHprof
+doOpenFile
+(Ljava/lang/String;)I
+doWriteFile
+(ILjava/lang/String;I)V
+doCloseFile
+doSetUploadEnd
+is64Bit
+doInitThreadDump
+Initialized
+%02d:%02d:%02d.%03d %5d %5d 
+[alog] get_log_dir is null
+[alog] file_path is null
+[alog] log dir is null
+[alog] open %s faild
+[alog] write config
+process_name=%s
+alogDir=%s
+crash_time=%llu
+[alog] flush
+(null)
+restore_handler faild ret=%d, errno=%d
+restore_handler 2 default faild ret=%d, errno=%d
+restore_original_handler err %d
+set_default_handler err %d
+SIGABRT
+SIGBUS
+SIGFPE
+SIGILL
+SIGSEGV
+SIGTRAP
+SIGSYS
+SIGSTKFLT
+BUS_ADRALN
+BUS_ADRERR
+BUS_OBJERR
+BUS_MCEERR_AR
+BUS_MCEERR_AO
+FPE_INTDIV
+FPE_INTOVF
+FPE_FLTDIV
+FPE_FLTOVF
+FPE_FLTUND
+FPE_FLTRES
+FPE_FLTINV
+FPE_FLTSUB
+ILL_ILLOPC
+ILL_ILLOPN
+ILL_ILLADR
+ILL_ILLTRP
+ILL_PRVOPC
+ILL_PRVREG
+ILL_COPROC
+ILL_BADSTK
+SEGV_MAPERR
+SEGV_ACCERR
+SEGV_BNDERR
+SEGV_PKUERR
+TRAP_BRKPT
+TRAP_TRACE
+TRAP_BRANCH
+TRAP_HWBKPT
+PTRACE_EVENT_FORK
+PTRACE_EVENT_VFORK
+PTRACE_EVENT_CLONE
+PTRACE_EVENT_EXEC
+PTRACE_EVENT_VFORK_DONE
+PTRACE_EVENT_EXIT
+PTRACE_EVENT_SECCOMP
+PTRACE_EVENT_STOP
+SYS_SECCOMP
+SI_USER
+SI_KERNEL
+SI_QUEUE
+SI_TIMER
+SI_MESGQ
+SI_ASYNCIO
+SI_SIGIO
+SI_TKILL
+SI_DETHREAD
+monitor_handler cannot get crash tid
+monitor_handler crash thread receied signal %d, code %d, pc=%p, addr=%p, npth_signal_init=%p
+monitor_handler callback thheade receied signal %d, code %d, pc=%p, addr=%p, npth_signal_init=%p
+monitor_handler receied signal %d, code %d, pc=%p, addr=%p, npth_signal_init=%p
+monitor_handler exit
+[FUNNEL]:RECEIVED_SIGNAL 0 signal number = %d
+[FUNNEL]:RESTORE_HANDLER 0
+[FUNNEL]:DUMP_HEADER 1
+[FUNNEL]:DUMP_HEADER 0
+[FUNNEL]:DUMP_MAPS 0
+call xcrash
+[FUNNEL]:DUMP_TOMB 0
+npth  
+Native crash was detected!
+[FUNNEL]:DUMP_LOGCAT 0
+[FUNNEL]:DUMP_RESOURCE 0
+[FUNNEL]:DUMP_ALOG 0
+[FUNNEL]:CALL_JAVA 0
+/system/bin/logcat
+main
+system
+events
+threadtime
+[FUNNEL]:DUMP_LOGCAT 1
+/proc/self/maps
+[FUNNEL]:DUMP_MAPS 1
+/proc/self/fd
+Total FD Count: %4d
+/proc/self/fd/%d
+%4d %s
+/proc/%d/status
+/proc/self/status
+/proc/%d/task
+Total Threads Count: %4d
+/proc/%d/stat
+/proc/%d/task/%d/stat
+[FUNNEL]:DUMP_RESOURCE 1
+hprof enter npth_dump_hprof!
+/libart.so
+hprof cannot open libart.so!
+_ZN3art3Dbg9SuspendVMEv
+_ZN3art3Dbg8ResumeVMEv
+hprof cannot find _suspend funtion!
+hprof cannot find _resume funtion!
+hprof fork done!
+hprof fork err!
+/proc/self/statm
+cannot open /proc/self/stam, errno = %d
+/proc/stat
+cannot open /proc/stat, errno = %d
+/proc/self/task/%d/stat
+/proc/self/stat
+native_heap_total:	%8zu kB
+native_heap_allocate:	%8zu kB
+native_heap_free:	%8zu kB
+hprof enter do_dump_hprof
+_ZN3art5hprof8DumpHeapEPKcib
+hprof cannot found DumpHeap
+hprof mkdir failed!
+hprof open %s failed, errno= %d
+hprof path = %s, fd=%d
+hprof done!
+cannot open %s, errno = %d
+handleNativeCrash
+[crash] enter
+[crash] dump %d
+[crash] create callback thread
+[crash] wake
+[crash] exit
+[FUNNEL]:CALLBACK_STEP %d
+/libc++.so
+_ZNSt3__14cerrE
+_ZN3art6Thread14CurrentFromGdbEv
+_ZNK3art6Thread13DumpJavaStackERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEE
+_ZNK3art6Thread13DumpJavaStackERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEEbb
+npth_crash_cb
+[callback] run
+[callback] done
+logcat.tmaps.txtfds.txt
+threads.meminfo.heap.hprheader.bfunnel.tjavastac/dev/null
+header.bin
+funnel.txt
+javastack.txt
+logcat.txt
+maps.txt
+fds.txt
+meminfo.txt
+heap.hprof
+pthreads.txt
+rountines.txt
+CrashLogNative
+CrashCommonLog
+[tid:%d][routine:%p][arg:%p][stack_base:%p][stack_size:0x%p][sigstack:%p]
+%p:%s:%s
+reportEventForAnrMonitor
+/proc/self/task
+Signal Catcher
+/proc/self/task/%d/comm
+/proc/self/task/%d/status
+SigBlk: %llx
+/proc/%d/fd/%d
+fd %d: %s
+crash_time=%llu
+start_time=%llu
+pid=%d
+tid=%d
+process_name=%s
+crash_thread_name=%s
+signal_line=Signal %d(%s), Code %d(%s)
+pid: %d, tid: %d, name: %s  >>> %s <<<
+signal %d (%s), code %d (%s), fault addr %p
+main_handler dump header faild
+    x0  %016llx  x1  %016llx  x2  %016llx  x3  %016llx
+    x4  %016llx  x5  %016llx  x6  %016llx  x7  %016llx
+    x8  %016llx  x9  %016llx  x10 %016llx  x11 %016llx
+    x12 %016llx  x13 %016llx  x14 %016llx  x15 %016llx
+    x16 %016llx  x17 %016llx  x18 %016llx  x19 %016llx
+    x20 %016llx  x21 %016llx  x22 %016llx  x23 %016llx
+    x24 %016llx  x25 %016llx  x26 %016llx  x27 %016llx
+    x28 %016llx  x29 %016llx
+    sp  %016llx  lr  %016llx  pc  %016llx
+%lx-%lx %4s %*s %*x:%*x %*d%n
+backtrace:
+    #00 pc %016lx  %s
+    #00 pc %016lx  <unknown>
+/proc/self/cmdline
+/proc/%d/comm
+/libapminsightb.so
+[xcrash] enter
+[xcrash] xc_common_open_crash_log faild path=%s, errno=%d
+[xcrash] PR_SET_PTRACER faild errno=%d
+[xcrash] fork faild errno = %d
+[xcrash] waitpid failed, errno=%d
+[xcrash] child terminated normally with non-zero exit status(%d), dumper=%s
+[xcrash] child terminated by a signal(%d)
+[xcrash] child terminated with other error status(%d), dumper=%s
+[xcrash] xc_crash_check_backtrace_valid err
+[xcrash] exit
+xc_crash_exec_dumper enter
+xcrash error:
+open /dev/null failed, errno=%d
+xcrash error:
+/dev/null fd NOT 0, errno=%d
+xcrash error:
+create args pipe failed, errno=%d
+xcrash error:
+set args pipe size failed, errno=%d
+xcrash error:
+write args to pipe failed, return=%d, errno=%d
+before execl xc_crash_dumper_pathname = %s
+after execl errno = %d
+    #00 pc 
+_ZN3art7Runtime9instance_E
+_ZN3art7Runtime14DumpForSigQuitERNSt3__113basic_ostreamIcNS1_11char_traitsIcEEEE
+Dump time: %04d-%02d-%02d %02d:%02d:%02d
+pid: %d  >>> %s <<<
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+Cmd line: %s
+Mode: ART runtime.
+Failed to load symbols.
+Failed to check runtime address.
+Failed to duplicate FD.
++++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++
+%lx-%lx r
+%lx-%*lx %*4s %lx %*x:%*x %*d%n
+--------
+ from pid %d, uid %d
+signal %d (%s), code %d (%s%s), fault addr %s
+    x0  %016lx  x1  %016lx  x2  %016lx  x3  %016lx
+    x4  %016lx  x5  %016lx  x6  %016lx  x7  %016lx
+    x8  %016lx  x9  %016lx  x10 %016lx  x11 %016lx
+    x12 %016lx  x13 %016lx  x14 %016lx  x15 %016lx
+    x16 %016lx  x17 %016lx  x18 %016lx  x19 %016lx
+    x20 %016lx  x21 %016lx  x22 %016lx  x23 %016lx
+    x24 %016lx  x25 %016lx  x26 %016lx  x27 %016lx
+    x28 %016lx  x29 %016lx
+    sp  %016lx  lr  %016lx  pc  %016lx
+unknown
+%s version %s %s (%s)
+%s/tombstone.txt
+    #%02zu pc %016lx  <unknown>
+    #%02zu pc %016lx  <anonymous:%16lx>
+    #%02zu pc %016lx  %s
+    #%02zu pc %016lx  %s (%s)
+    #%02zu pc %016lx  %s (%s+%lu)
+libunwind.so
+_Uaarch64_init_local
+_Uaarch64_get_reg
+_Uaarch64_step
+/proc/%d/cmdline
+Android
+r17c
+4988734
+GCC: (GNU) 4.9.x 20150123 (prerelease)
+clang version 6.0.1 (0.9.7-2020-03-24-d2de1ec2cb4-20c0e54-83b6d20)
+.shstrtab
+.note.gnu.build-id
+.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.text
+.rodata
+.eh_frame_hdr
+.eh_frame
+.note.android.ident
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.comment

@@ -1,0 +1,527 @@
+/system/bin/linker64
+Android
+r17c
+4988734
+liblog.so
+__android_log_print
+libc.so
+strlen
+pthread_mutex_unlock
+closedir
+calloc
+strdup
+fopen
+fgets
+vsnprintf
+__stack_chk_fail
+isspace
+memset
+malloc
+write
+opendir
+getpagesize
+memmove
+readdir
+_exit
+read
+ptrace
+pthread_create
+sigaction
+__libc_init
+pthread_mutex_lock
+mmap
+memcmp
+pthread_once
+sigaltstack
+__errno
+sscanf
+waitpid
+memcpy
+fstat
+sysconf
+__cxa_atexit
+getpid
+strncmp
+realloc
+munmap
+strcmp
+alarm
+syscall
+strtol
+strncpy
+sigfillset
+free
+strcpy
+gettimeofday
+strstr
+fclose
+gettid
+strrchr
+abort
+libm.so
+libdl.so
+dlclose
+dlsym
+dl_iterate_phdr
+dlopen
+dladdr
+_edata
+__bss_start
+_end
+XZ_SIG
+CrcUpdateT8
+CrcUpdateT4
+__PREINIT_ARRAY__
+g_CrcTable
+__FINI_ARRAY__
+__INIT_ARRAY__
+LIBC
+T\;I
+7@cR
+	!X9?
+[@9i
+bA9j
+	@9_<
+Hkh8
+	@9_
+2A!	
+2@9k
+6@9J
+:@9)
+2BP'
+Ckw8
+2B$*
+2BT*
+b@9i
+b@9h
+j98H
+*!h/
+@9+	
+	1X9
+!KJK
+JlXl
+JhXh
+!@JA
+JlXl
+S%Ze
+SSXs
+JfXf
+JhXh
+!@JA
+-il8
+TiJh8
+`!@y
+Jih8?
+)AN9
+2,}@
+	JS+
+T(!@y
+T(%@
+AN9h
+@9m1
+@9J	
+@9m1
+@9J	
+@91&
+jl8Nik8
+Mi+8
+TMik8
+j,8Mi+8k
+.A)L
+TH	87(
+QPi/8
+jv8	i68
+@yH~
+@8R^
+Sk}	
+SJE,
+2NYlxo}
+@8k]
+A@yM
+QYqxr}
+@8k]
+@)@z
+@8k]
+@8k]
+*.F.
+2"@y
+T.F.
+Yrxa}
+@8k]
+SNE.
+Yoxq}
+@8k]
+@8k]
+2QYoxr}
+@8k]
+[~xi|
+@8c\
+	*i|
+@8)]
+Ysxn
+ckj8
+@8)]
+KRimx
+[mxI}
+@8J]
+	*I}
+	k"	
+[vx*
+@89_
+{6x)
+@8J]
+Sc}	
+iki8
+ik%8i
+[jx+}
+@8)]
+WKJz
+{6x-
+@yK}
+@8J]
+[ixK}
+@8J]
+	*I}
+WKRy
+[vx*
+@89_
+{6x)
+[jx+}
+@8)]
+WKJz
+{6x-
+[ixK}
+@8J]
+{)x*y
+WKRy
+[vx*
+@89_
+{6x)
+NK*y
+{*xNy
+WKJz
+{6x9
+{2x9
+[nxs
+@8)]
+{*xMy
+VKNy
+{2x)#
+{*xMy
+mk%8
+@yK}
+@8J]
+Sc}	
+@yj|
+@8c\
+y!E$
+@yI}
+@8J]
+	*I}
+-!@yr
+NKK~
+@8R^
+y.Xmx*}
+@8)]
+)x-x
+y.E$
+%@yI}
+@8J]
+	*I}
+*+x-x-XixK}
+@8J]
+*x)x*y
+Ynxk|
+@8c\
+y)x.y
+JK.y
+MK*y
+3+x)x
+Xmx*}
+@8)]
+XixK}
+@8J]
+x)x!y
+x)x!y
+SDE)
+@yi|
+@8c\
+	*i|
+Xmx*}
+@8)]
+XixK}
+@8J]
+	*I}
+Xjx+}
+@8)]
+XixK}
+@8J]
+	*I}
+Xjx+}
+@8)]
+x*xIy
+MKIy
+x*x)
+K.Zjxk|
+@8c\
+S+z*x
+*.z*x)
+@8m\
+@8c\
+	*i|
+yN[jx+}
+@8)]
+I{*xI	
+NKI{*xI
+*N[ix
+*M{*xJ
+M[jx+}
+@8)]
+I{*xJ!
+*I{*xI
+*?A*
+kkr8N
+ij8K
+@8c\
+jo8J
+)UJJ
+)NJJ
+)YJJ
+)ZJJ
+)KJJ
+)QJJ
+)OJJ
+)NJJ
+)AJJ
+)RJJ
+)BJJ
+)CJJ
+)DJJ
+h&@)*
+)h&A)AU
+)h&B)
+)h&C)
+	h(8
+5`*@
+5`R@
+5`z@
+Th"@
+8h&A
+Vi`8
+Vi`8
+@8{+
+	Kj!
++ih8,ij8+i*8,i(8J
+jj8N
+j+8k
+Ha8a
+c<Y9
+chb8
+@`M9`
+5`~@
+B`M9B
+c`M9
+jb8_ 
+Bht8Z
+c`M9c
+T`2C
+Ta[axc
+*@9?
+"@9?
+@9? 
+"@9_
+ H`8a
+Y9Bx
+J`8a
+Jz8d
+ H`8a
+ja8? 
+9`z4
+Ta~}
+ H`8a
+Ha8a
+b"@9
+`&@9
+b"@9_
+@9?H
+4C(@
+TiLC
+0@y	
+B@y 
+`B@y
+7`B@y
+ @@y
+`B@y
+tombstone consumes a total of %lld ms!
+xcrash error debug:
+dumper has crashed (signal: %d, code: %d)
+xcrash_dumper
+DWARF: PC is moving backwards
+DWARF: attempt to restore without remember
+ELF: create GNU interface FAILED
+.note.gnu.build-id
+.debug_frame
+.eh_frame
+.eh_frame_hdr
+.gnu_debugdata
+.text
+backtrace:
+<unknown>
+<anonymous:%16lx>
+%s!%s
+ (offset 0x%lx)
+ (%s+%zu)
+ (%s)
+    #%02zu pc %016lx  %s%s%s
+build id:
+stack:
+         ........  ........
+.oat
+art_quick_generic_jni_trampoline
+    %s (BuildId: 
+%02hhx
+unknown
+    #%02d  
+         
+%016lx  %016lx
+  %s
+/dev/
+ashmem/
+/proc/%d/maps
+[anon:abort message]
+memory map:
+ (load base 0x%lx)
+    %016lx-%016lx %c%c%c %*lx %*lx %s%s
+    TOTAL SIZE: 0x%lxK (%luK)
+%lx-%lx %4s %lx %*x:%*x %*d%n
+PROCESS: load threads failed, errno=%d
+PROCESS: crashed thread NOT found
+PROCESS: create maps failed, errno=%d
+--- --- --- --- --- --- --- --- --- --- --- --- --- --- --- ---
+total threads (exclude the crashed thread): %zu
+dumped threads: %u
+copied threads: %u
++++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++
+/proc/%d/task
+%p (*pc=%#08x)
+--------
+ from pid %d, uid %d
+signal %d (%s), code %d (%s%s), fault addr %s
+Crash message: path=%s, fatal_addr=%016lx, map_addr=%016lx-%016lx, offset=%016lx
+Abort message: '%s'
+abortmsg.txt
+/libc.so
+__abort_message_ptr
+    x0  %016lx  x1  %016lx  x2  %016lx  x3  %016lx
+    x4  %016lx  x5  %016lx  x6  %016lx  x7  %016lx
+    x8  %016lx  x9  %016lx  x10 %016lx  x11 %016lx
+    x12 %016lx  x13 %016lx  x14 %016lx  x15 %016lx
+    x16 %016lx  x17 %016lx  x18 %016lx  x19 %016lx
+    x20 %016lx  x21 %016lx  x22 %016lx  x23 %016lx
+    x24 %016lx  x25 %016lx  x26 %016lx  x27 %016lx
+    x28 %016lx  x29 %016lx
+    sp  %016lx  lr  %016lx  pc  %016lx
+THREAD: ptrace GETREGSET failed, errno=%d
+pid: %d, tid: %d, name: %s  >>> %s <<<
+code around %s:
+memory near %s:
+    %016lx
+%s  %s
+UTIL: ptrace error, addr:%lx, errno:%d
+vRQ>
+8STs
+LwH'
+7zXZ
+    #%02zu pc %016lx  <unknown>
+    #%02zu pc %016lx  <anonymous:%16lx>
+    #%02zu pc %016lx  %s
+    #%02zu pc %016lx  %s (%s)
+    #%02zu pc %016lx  %s (%s+%lu)
+libunwind.so
+_Uaarch64_init_local
+_Uaarch64_get_reg
+_Uaarch64_step
+SIGABRT
+SIGBUS
+SIGFPE
+SIGILL
+SIGSEGV
+SIGTRAP
+SIGSYS
+SIGSTKFLT
+BUS_ADRALN
+BUS_ADRERR
+BUS_OBJERR
+BUS_MCEERR_AR
+BUS_MCEERR_AO
+FPE_INTDIV
+FPE_INTOVF
+FPE_FLTDIV
+FPE_FLTOVF
+FPE_FLTUND
+FPE_FLTRES
+FPE_FLTINV
+FPE_FLTSUB
+ILL_ILLOPC
+ILL_ILLOPN
+ILL_ILLADR
+ILL_ILLTRP
+ILL_PRVOPC
+ILL_PRVREG
+ILL_COPROC
+ILL_BADSTK
+SEGV_MAPERR
+SEGV_ACCERR
+SEGV_BNDERR
+SEGV_PKUERR
+TRAP_BRKPT
+TRAP_TRACE
+TRAP_BRANCH
+TRAP_HWBKPT
+PTRACE_EVENT_FORK
+PTRACE_EVENT_VFORK
+PTRACE_EVENT_CLONE
+PTRACE_EVENT_EXEC
+PTRACE_EVENT_VFORK_DONE
+PTRACE_EVENT_EXIT
+PTRACE_EVENT_SECCOMP
+PTRACE_EVENT_STOP
+SYS_SECCOMP
+SI_USER
+SI_KERNEL
+SI_QUEUE
+SI_TIMER
+SI_MESGQ
+SI_ASYNCIO
+SI_SIGIO
+SI_TKILL
+SI_DETHREAD
+/proc/%d/cmdline
+/proc/%d/comm
+(null)
+GCC: (GNU) 4.9.x 20150123 (prerelease)
+clang version 6.0.1 (0.9.7-2020-03-24-d2de1ec2cb4-20c0e54-83b6d20)
+.shstrtab
+.interp
+.note.android.ident
+.note.gnu.build-id
+.hash
+.dynsym
+.dynstr
+.gnu.version
+.gnu.version_r
+.rela.dyn
+.rela.plt
+.text
+.rodata
+.eh_frame_hdr
+.eh_frame
+.preinit_array
+.init_array
+.fini_array
+.data.rel.ro
+.dynamic
+.got
+.data
+.bss
+.comment

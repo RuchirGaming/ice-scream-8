@@ -1,0 +1,75 @@
+Android
+r23b
+7779620
+__cxa_atexit
+__cxa_finalize
+__stack_chk_fail
+memcpy
+memmove
+printf
+sbox0
+sbox1
+ss_decrypt
+ss_encrypt
+ss_encrypted_size
+Java_com_bytedance_sdk_component_embedapplog_PangleEncryptUtils_ttDecrypt
+Java_com_bytedance_sdk_component_embedapplog_PangleEncryptUtils_ttEncrypt
+initKey
+malloc
+strlen
+libc.so
+LIBC
+libm.so
+libstdc++.so
+libdl.so
+libtobEmbedPagEncrypt.so
+TeaLog: after ntohl: %u
+UK*@3oKpFlVVnads
+*ij8
+1Kik8
+@9	ii8i
+9	ij8j
+9	ij8j
+9	ij8j
+9	ij8j
+9	ij8j
+9	ij8j
+9	ij8j"@9i
+9	ij8j&@9k2@)i"
+9	ij8j*@9i&
+9	ij8j.@9i*
+9	ij8j2@9i.
+9	ij8j6@9i2
+9	ij8j:@9i6
+9	ij8j>@9i:
+ij8i	
+9k"A)i	
+Kik8
+c|w{
+9JLX
+~=d]
+lpHP
+}Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
+Linker: LLD 12.0.8 (/buildbot/src/android/llvm-r416183/out/llvm-project/lld c935d99d7cf2016289302412d708641d52d2f7ee)
+.fini_array
+.text
+.got
+.comment
+.note.android.ident
+.got.plt
+.rela.plt
+.bss
+.dynstr
+.eh_frame_hdr
+.gnu.version_r
+.data.rel.ro
+.rela.dyn
+.gnu.version
+.dynsym
+.gnu.hash
+.eh_frame
+.note.gnu.build-id
+.dynamic
+.shstrtab
+.rodata
+.data

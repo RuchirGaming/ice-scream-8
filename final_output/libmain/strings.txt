@@ -1,0 +1,61 @@
+Android
+r23b
+7779620
+__cxa_atexit
+__cxa_finalize
+JNI_OnLoad
+__stack_chk_fail
+dlclose
+dlerror
+dlopen
+dlsym
+free
+malloc
+memcpy
+snprintf
+libdl.so
+LIBC
+libc.so
+liblog.so
+libm.so
+libmain.so
+com/unity3d/player/NativeLoader
+Unable to load library: %s [%s]
+libil2cpp.so
+JNI_OnUnload
+(Ljava/lang/String;)Z
+Unable to retrieve Java VM
+JNI_OnLoad
+Unsupported VM version
+%s/%s
+libunity.so
+load
+unload
+Android (7714059, based on r416183c1) clang version 12.0.8 (https://android.googlesource.com/toolchain/llvm-project c935d99d7cf2016289302412d708641d52d2f7ee)
+Linker: LLD 12.0.8 (/buildbot/src/android/llvm-r416183/out/llvm-project/lld c935d99d7cf2016289302412d708641d52d2f7ee)
+.note.unity
+.fini_array
+.text
+.comment
+.note.android.ident
+.got.plt
+.rela.plt
+.bss
+.dynstr
+.eh_frame_hdr
+.gnu.version_r
+.data.rel.ro
+.rela.dyn
+.gnu.version
+.dynsym
+.gnu_debuglink
+.gnu.hash
+.eh_frame
+.note.gnu.build-id
+.dynamic
+.shstrtab
+.rodata
+.data
+Unity Technologies
+2022.3.11f1_d00248457e15
+libmain.dbg.so

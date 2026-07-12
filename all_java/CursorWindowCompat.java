@@ -1,0 +1,38 @@
+package androidx.core.database;
+
+import android.database.CursorWindow;
+import android.os.Build;
+
+/* JADX INFO: loaded from: /workspaces/ice-scream-8/./apk_dex_files/classes.dex */
+public final class CursorWindowCompat {
+    private CursorWindowCompat() {
+    }
+
+    public static CursorWindow create(String str, long j2) {
+        if (Build.VERSION.SDK_INT >= 28) {
+            return Api28Impl.createCursorWindow(str, j2);
+        }
+        if (Build.VERSION.SDK_INT >= 15) {
+            return Api15Impl.createCursorWindow(str);
+        }
+        return new CursorWindow(false);
+    }
+
+    static class Api28Impl {
+        private Api28Impl() {
+        }
+
+        static CursorWindow createCursorWindow(String str, long j2) {
+            return new CursorWindow(str, j2);
+        }
+    }
+
+    static class Api15Impl {
+        private Api15Impl() {
+        }
+
+        static CursorWindow createCursorWindow(String str) {
+            return new CursorWindow(str);
+        }
+    }
+}

@@ -1,0 +1,75 @@
+__cxa_finalize
+__cxa_atexit
+Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MMapBuffer_nCreate
+Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MMapBuffer_nFlush
+Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MMapBuffer_nRead
+Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MMapBuffer_nRelease
+Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MMapBuffer_nWrite
+Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MReMapBuffer_nMReMap
+Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MemoryBuffer_nCreate
+Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MemoryBuffer_nFlush
+Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MemoryBuffer_nRead
+Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MemoryBuffer_nRelease
+Java_com_bykv_vk_openvk_preload_geckox_buffer_impl_MemoryBuffer_nWrite
+_Z8readFulliPal
+__android_log_print
+__errno
+__stack_chk_fail
+calloc
+close
+free
+ftruncate
+lseek
+mmap
+mremap
+msync
+munmap
+open
+read
+strerror
+write
+liblog.so
+libm.so
+libdl.so
+libc.so
+_edata
+__bss_start
+__bss_start__
+__bss_end__
+__end__
+_end
+libbuffer_pg.so
+LIBC
+java/io/IOException
+Buffer
+mmap failed, %s
+length illegal
+seek failed
+native calloc failed
+read full failed
+close failed
+close file failed
+mremap failed
+Android
+r18b
+5063045
+Android (4751641 based on r328903) clang version 7.0.2 (https://android.googlesource.com/toolchain/clang 003100370607242ddd5815e4a043907ea9004281) (https://android.googlesource.com/toolchain/llvm 1d739ffb0366421d383e04ff80ec2ee591315116) (based on LLVM 7.0.2svn)
+.fini_array
+.text
+.got
+.comment
+.note.android.ident
+.rela.plt
+.dynstr
+.eh_frame_hdr
+.gnu.version_r
+.rela.dyn
+.gnu.version
+.dynsym
+.hash
+.eh_frame
+.note.gnu.build-id
+.dynamic
+.shstrtab
+.rodata
+.data

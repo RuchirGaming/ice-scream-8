@@ -1,0 +1,499 @@
+/system/bin/linker64
+Android
+r21e
+7075529
+liblog.so
+libdl.so
+libm.so
+dl_iterate_phdr
+libc.so
+free
+pthread_create
+memcpy
+memset
+malloc
+abort
+strlen
+__libc_init
+pthread_once
+pthread_mutex_lock
+pthread_mutex_unlock
+__cxa_atexit
+__android_log_print
+__errno
+__open_2
+__read_chk
+__stack_chk_fail
+__strlen_chk
+__strncpy_chk2
+__vsnprintf_chk
+_exit
+access
+alarm
+calloc
+closedir
+dladdr
+dlclose
+dlopen
+dlsym
+fclose
+fgets
+fopen
+fstat
+getpagesize
+getpid
+gettid
+isspace
+memcmp
+memmove
+mmap
+munmap
+opendir
+ptrace
+read
+readdir
+realloc
+sigaction
+sigaltstack
+sigfillset
+sscanf
+strcmp
+strdup
+strncmp
+strtol
+syscall
+sysconf
+vsnprintf
+waitpid
+write
+__memset_chk
+__memmove_chk
+sigemptyset
+pthread_sigmask
+__memcpy_chk
+sigaddset
+main
+__PREINIT_ARRAY__
+process_vm_readv
+__FINI_ARRAY__
+__INIT_ARRAY__
+LIBC
+q"	B
+R!`9
+T?i(8
+T ku
+Lii8k	
++ih8J	
++yhxJ	
++ih8J	
+5H3@y
+5HOB
+d*@z
+Rc(8
+T?i(8
+[@9(
++ih8J	
++i`8J	
+A9(}F
+ks8_<
+Iy{x
+r	i*
+jkh8)	
+s@9	
+)ki8?
+TBks8_
+yixJ	
+T,yj
+T,yk
+T,yk
+T,yk
+T,yk
+T,yk
+T,yk
+T,yk
+T,yk
+T,yk
+T,yk
+T,yj
+T`"@
+@y@%
+oAy:
+R )@
+wAyZ
+Jkh8)	
+R )@
+wAyJ
+R!x6
+j!JJ*
+T?i(
+T+hj8
+yixJ	
+Jih8)
+GU9	
+)AN9
+'U9	
+TIi(8
+Jii8)
+T+}@
+5h&@
+4hb@9
+(3@y
+5('@
+9|$@
+hib8
+*cjj8I
+ij8k	
+TI|@
+T!i(8
+RKyix)
+Th"@
+8h&A
+#@9H
+JhXh
+SeYe
+Jphp
+T)hh8
+	JiXi
+ !@J
+ih8J	
+Tlj{8M
+li;8{
+*i68
+R{C6
+2A)K
+Q.i(8
+@yh|
+@8c\
+Sk}	
+SJE,
+RNYlxo}
+@8k]
+A@ym
+in8.
+QYqx`}
+@8k]
+@)@z
+@8k]
+@8k]
+k.F.
+ "@y
+Y`xb}
+@8k]
+SNE.
+Yoxq}
+@8k]
+@8k]
+RQYox`}
+@8k]
+5h>@
+*j2I)c
+@9|ZG)
+lXxx
+lx8x
+LKlx8x
+@81^
+<hn8
+x.xN
+x:xk1
+yzx,~
+@81^
+x.xn
+.z:x
+K1A*
+x8x,
+,hl8
+,h)8,
+Xex,~
+@81^
+X~x.~
+@81^
+yzxl"
+@81^
+x1x%z
+X~x.~
+@81^
+x1x%z
+@81^
+x.x,
+1h)8
+y8x.
+y:x"
+Xlx%~
+@81^
+y.Zex
+.z,x
+*.z,x
+yE[nx
+L{.x
+*L{.xN[ex,~
+@81^
+N{%x
+*N{%xE[qx
+L{1x%z
+*L{1xQ[ex
+N{%x
+*Q{%xQ[nx
+L{.x
+*Q{.x
+Rn[lx
+n{,x
+Kn{,x
+@y,~
+Xlx%~
+@81^
+x1x.
+,z.x
+*,z.x
+T1hn8
+q1h)8)
+Th^@
+T+A_
+9+IJZ
+JJ)G
+Z+IJ{
+JJIG
+J)BJ
+J)CJ|J
+J)DJ~J
+J)EJ
+J)FJlJ
+J)GJJE
+/I)jN
+J)SJJE
+k)TJkE
+/J)hL
+k)^JkE
+k)HJhE
+K)kO
+k)[JkE
+k)HJhE
+))GJ)E
+*%@)
+	h(8
+Lii8k	
+T?i(8
++ih8J	
+TKih8,kh8l
+KLi(8+k(8
+Ti&@
+T+kh8Lih8
+Ki(8+k(8
+#@9sB
+#@9`B
+@9N	@9
+cji8
+cjh8
+Ha8a
+c|S9
+chb8
+@`M9`
+5`~@
+B`M9B
+c`M9
+jb8_ 
+Bht8
+c`M9c
+T`2C
+Ta[axc
+*@9?
+"@9?
+@9? 
+"@9_
+ H`8a
+Y9Bx
+J`8a
+Jz8d
+ H`8a
+ja8? 
+9`z4
+Ta~}
+ H`8a
+Ha8a
+b"@9
+`&@9
+b"@9_
+@9?H
+4C(@
+0@y	
+B@y 
+`B@y
+7`B@y
+ @@y
+`B@y
+86BL00V00004
+QQQQ0
+FiiiRiii
+tacrash error debug:
+dumper has crashed (signal: %d, code: %d)
+DWARF: PC is moving backwards
+DWARF: attempt to restore without remember
+.note.gnu.build-id
+.debug_frame
+.eh_frame
+.eh_frame_hdr
+.gnu_debugdata
+ELF: create GNU interface FAILED
+backtrace:
+<anonymous:%16lx>
+%s!%s
+ (offset 0x%lx)
+<unknown>
+ (%s+%zu)
+ (%s)
+    #%02zu pc %016lx  %s%s%s
+/dev/
+ashmem/
+/proc/%d/maps
+%lx-%lx %4s %lx %*x:%*x %*d%n
+[anon:abort message]
+/proc/%d/task
+PROCESS: load threads failed, errno=%d
+PROCESS: crashed thread NOT found
+PROCESS: create maps failed, errno=%d
+%p (*pc=%#08x)
+--------
+ from pid %d, uid %d
+signal %d (%s), code %d (%s%s), fault addr %s
+/system/lib64/libc.so
+__abort_message_ptr
+Abort message: '%s'
++++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++ +++
+    x0  %016lx  x1  %016lx  x2  %016lx  x3  %016lx
+    x4  %016lx  x5  %016lx  x6  %016lx  x7  %016lx
+    x8  %016lx  x9  %016lx  x10 %016lx  x11 %016lx
+    x12 %016lx  x13 %016lx  x14 %016lx  x15 %016lx
+    x16 %016lx  x17 %016lx  x18 %016lx  x19 %016lx
+    x20 %016lx  x21 %016lx  x22 %016lx  x23 %016lx
+    x24 %016lx  x25 %016lx  x26 %016lx  x27 %016lx
+    x28 %016lx  x29 %016lx
+    sp  %016lx  lr  %016lx  pc  %016lx
+native
+tacrash
+THREAD: ptrace GETREGSET failed, errno=%d
+pid: %d, tid: %d, name: %s  >>> %s <<<
+(null)
+libunwind.so
+_Uaarch64_init_local
+_Uaarch64_get_reg
+_Uaarch64_step
+    #%02zu pc %016lx  <unknown>
+    #%02zu pc %016lx  <anonymous:%16lx>
+    #%02zu pc %016lx  %s
+    #%02zu pc %016lx  %s (%s)
+    #%02zu pc %016lx  %s (%s+%lu)
+SIGSTKFLT
+SIGSYS
+SIGTRAP
+SIGSEGV
+SIGILL
+SIGFPE
+SIGBUS
+SIGABRT
+SI_DETHREAD
+SI_TKILL
+SI_SIGIO
+SI_ASYNCIO
+SI_MESGQ
+SI_TIMER
+SI_QUEUE
+SI_KERNEL
+PTRACE_EVENT_STOP
+PTRACE_EVENT_SECCOMP
+PTRACE_EVENT_EXIT
+PTRACE_EVENT_VFORK_DONE
+PTRACE_EVENT_EXEC
+PTRACE_EVENT_CLONE
+PTRACE_EVENT_VFORK
+PTRACE_EVENT_FORK
+SYS_SECCOMP
+SI_USER
+TRAP_BRKPT
+TRAP_TRACE
+TRAP_BRANCH
+TRAP_HWBKPT
+SEGV_MAPERR
+SEGV_ACCERR
+SEGV_BNDERR
+SEGV_PKUERR
+ILL_ILLOPC
+ILL_ILLOPN
+ILL_ILLADR
+ILL_ILLTRP
+ILL_PRVOPC
+ILL_PRVREG
+ILL_COPROC
+ILL_BADSTK
+FPE_INTDIV
+FPE_INTOVF
+FPE_FLTDIV
+FPE_FLTOVF
+FPE_FLTUND
+FPE_FLTRES
+FPE_FLTINV
+FPE_FLTSUB
+BUS_ADRALN
+BUS_ADRERR
+BUS_OBJERR
+BUS_MCEERR_AR
+BUS_MCEERR_AO
+/proc/%d/cmdline
+unknown
+/proc/%d/comm
+/data/local/su
+/data/local/bin/su
+/data/local/xbin/su
+/system/xbin/su
+/system/bin/su
+/system/bin/.ext/su
+/system/bin/failsafe/su
+/system/sd/xbin/su
+/system/usr/we-need-root/su
+/sbin/su
+/su/bin/su
+*** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+Tombstone maker: 'TACrash 1.0.0'
+Crash type: '%s'
+Start time: '%04d-%02d-%02dT%02d:%02d:%02d.%03ld%c%02ld%02ld'
+Crash time: '%04d-%02d-%02dT%02d:%02d:%02d.%03ld%c%02ld%02ld'
+App ID: '%s'
+App version: '%s'
+Rooted: '%s'
+API level: '%d'
+OS version: '%s'
+Kernel version: '%s'
+ABI list: '%s'
+Manufacturer: '%s'
+Brand: '%s'
+Model: '%s'
+Build fingerprint: '%s'
+ABI: 'arm64'
+7zXZ
+vRQ>
+8STs
+LwH'
+Android (7019983 based on r365631c3) clang version 9.0.9 (https://android.googlesource.com/toolchain/llvm-project a2a1e703c0edb03ba29944e529ccbf457742737b) (based on LLVM 9.0.9svn)
+GCC: (GNU) 4.9.x 20150123 (prerelease)
+.preinit_array
+.init_array
+.fini_array
+.text
+.got
+.comment
+.note.android.ident
+.rela.plt
+.bss
+.dynstr
+.eh_frame_hdr
+.gnu.version_r
+.interp
+.data.rel.ro
+.rela.dyn
+.gnu.version
+.dynsym
+.gnu.hash
+.eh_frame
+.note.gnu.build-id
+.dynamic
+.shstrtab
+.rodata
+.data
